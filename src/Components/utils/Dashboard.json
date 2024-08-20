@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": 101,
+          "name": "Cloud Accounts",
+          "type": "pieChart",
+          "data": {
+            "labels": ["Connected", "Not Connected"],
+            "values": [2, 2],
+            "colors": ["#4caf50", "#f44336"]
+          }
+        },
+        {
+          "id": 102,
+          "name": "Cloud Account Risk Assessment",
+          "type": "pieChart",
+          "data": {
+            "labels": ["Failed", "Warning", "Passed"],
+            "values": [1689, 680, 7254],
+            "colors": ["#f44336", "#ff9800", "#4caf50"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": 201,
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "text",
+          "content": "No Graph data available!"
+        },
+        {
+          "id": 202,
+          "name": "Workload Alerts",
+          "type": "text",
+          "content": "No Graph data available!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": 301,
+          "name": "Image Risk Assessment",
+          "type": "barChart",
+          "data": {
+            "labels": ["Critical", "High", "Medium"],
+            "values": [0, 2, 8],
+            "colors": ["#f44336", "#ff9800", "#ffeb3b"]
+          }
+        },
+        {
+          "id": 302,
+          "name": "Image Security Issues",
+          "type": "barChart",
+          "data": {
+            "labels": ["Critical", "High", "Medium"],
+            "values": [2, 2, 1],
+            "colors": ["#f44336", "#ff9800", "#ffeb3b"]
+          }
+        }
+      ]
+    }
+  ]
+}

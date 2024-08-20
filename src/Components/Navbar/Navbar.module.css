@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100vw;
+    padding: 0 20px;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .breadcrumb {
+    font-size: 1.4vh;
+    color: #5a5c69;
+  }
+  
+  .separator {
+    margin: 0 5px;
+  }
+  
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items centrally */
+    height: 4vh;
+    width: 40vw;
+    color: #2e59d9;
+  }
+  
+  .searchBox input {
+    width: 100%;
+    height: 100%;
+    padding: 0 12px;
+    border: 1px solid rgba(110, 205, 227, 1); /* Updated border color */
+    border-radius: 7px; /* Adjust the border-radius to make edges curved */
+    background-color: rgb(223, 230, 232);
+    color: #858796;
+    font-size: 1.4vh;
+  }
+  
+  .searchBox input::placeholder {
+    color: #b7b9cc;
+  }
+  
+  .searchBox input:focus {
+    outline: none;
+    border-color: rgba(110, 205, 227, 1); /* Keep the border color consistent on focus */
+    box-shadow: 0 0 5px rgba(110, 205, 227, 0.5); /* Updated box-shadow color for consistency */
+  }
+  
+  .profileSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .notification {
+    margin-right: 15px;
+  }
+  
+  .bellIcon {
+    font-size: 2.5vh;
+    color: #4e73df; /* A more vibrant blue */
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .bellIcon:hover {
+    color: #2e59d9; /* Slightly darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #d1d3e2;
+  }
+  
+  .profileName {
+    font-size: 1.4vh;
+    color: #5a5c69;
+  }
+  
